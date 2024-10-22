@@ -1,0 +1,64 @@
+html{
+    font-size: 1rem;
+}
+body{
+    width: 100%;
+    font-family: Roboto;
+}
+/* шапка */
+.header_block{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+.header_block_item_button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5222D0;
+    color: white;
+}
+/* м}н */
+.main{
+    width: 100%;
+}
+.main_block_item{
+    margin: 20px 70px;
+    font-size: 1.25rem;
+    width: 100%;
+}
+h1{
+    font-size: 3.75rem;
+}
+.main_block_item_button{
+    border: none;
+    background-color: #5222D0;
+    color: white;
+    max-width: 200px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+}
+.main_block_item_image{
+    width: 100%;
+    margin-left: 50px;
+    object-fit: cover;
+}
+/* баннер и заголовок */
+.main_block{
+    display: flex;
+}
+.header_block_item_button,
+.main_block_item_button{
+    font-weight: bold;
+    cursor: pointer;
+}
+/* навигация */
+.footer{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #5222D0;
+    margin: 0 10px;
+    cursor: pointer;
+}
